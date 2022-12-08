@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+body{
+background-color: rgba(127, 255, 212, 0.437);
+  
+}
+
+.item2{
+  width: auto;
+  height: auto;
+  opacity: 0.3;
+  position:absolute;
+  align-self:center;
+  left: 25%;
+  bottom:20%;
+
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+	background-color: rgba(97, 255, 97, 0.555);
+  
+}
+ .item1
+{
+  width: 80px;
+  length:60px;
+}
+
+.logo{
+  float:right;
+  position: relative;
+}
+.logo1{
+  float:right;
+  
+} 
+h1{
+  position:absolute;
+  bottom:60%;
+  left:40%;
+  
+}
+  li {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+
+  }
+  
+  li a:hover:not(.active) {
+	background-color:  #ff65659d;
+  }
+  
+  .active {
+	background-color: #ff65659d;
+  }
+
+  .piechartsalary{
+    position:absolute;
+    bottom:-10%;
+    left:1%;
+    border-radius: 5%;
+
+  }
+  .piechartemployee{
+    position:absolute;
+    bottom:-10%;
+    left:50%;
+    border-radius: 5%;
+
+  }

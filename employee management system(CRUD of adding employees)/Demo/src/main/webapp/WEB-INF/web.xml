@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         
+<servlet>
+     <servlet-name>EmployeeInsert</servlet-name>
+     <servlet-class>com.customer.EmployeeInsert</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>EmployeeInsert</servlet-name>
+    <url-pattern>/insert</url-pattern>
+</servlet-mapping>
+
+<servlet>    
+    <servlet-name>EmployeeUpdate</servlet-name>
+    <servlet-class>com.customer.employeedetailsupdateserverlet</servlet-class>
+</servlet>   
+
+<servlet-mapping>
+    <servlet-name>EmployeeUpdate</servlet-name>
+    <url-pattern>/updateclick</url-pattern>
+</servlet-mapping>
+  
+<servlet>     
+    <servlet-name>Employeedelete</servlet-name>
+    <servlet-class>com.customer.deleteemployee</servlet-class>
+</servlet>  
+
+<servlet-mapping>
+    <servlet-name>Employeedelete</servlet-name>
+    <url-pattern>/deleteclick</url-pattern>
+</servlet-mapping>
+
+
+<!-- <servlet>    
+    <servlet-name>employeedisplay</servlet-name>
+    <servlet-class>com.customer.employeeservelt</servlet-class>
+</servlet>   
+
+<servlet-mapping>
+    <servlet-name>employeedisplay</servlet-name>
+    <url-pattern>/employeeservelt</url-pattern>
+</servlet-mapping> -->
+
+</web-app>

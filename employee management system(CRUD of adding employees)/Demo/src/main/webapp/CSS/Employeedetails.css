@@ -1,0 +1,257 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+body{
+background-color: rgba(127, 255, 212, 0.437);
+  
+}
+
+.item2{
+  width: auto;
+  height: auto;
+  opacity: 0.3;
+  position:absolute;
+  align-self:center;
+  left: 25%;
+  bottom:20%;
+
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+	background-color: rgba(97, 255, 97, 0.555);
+  
+}
+ .item1
+{
+  width: 80px;
+  length:60px;
+}
+
+.logo{
+  float:right;
+  position: relative;
+}
+.logo1{
+  float:right;
+  
+} 
+h1{
+  position:absolute;
+  bottom:60%;
+  left:40%;
+  
+}
+  li {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+
+  }
+  
+  li a:hover:not(.active) {
+	background-color:  #ff65659d;
+  }
+  
+  .active {
+	background-color: #ff65659d;
+  }
+
+  .styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    position:absolute;
+    bottom:40%;
+    left:5%;
+
+}
+.styled-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+.form {
+   
+   background-color: #15172b;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 690px;
+    padding: 20px;
+    width: 320px;
+    top:15%;
+    left:70%;
+    position: absolute;
+  }
+ 
+ 
+  
+  .title {
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+  
+  .subtitle {
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  .input-container {
+    height: 20px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .ic1 {
+    top:5%;
+    position: relative;
+  }
+  
+  .ic2 {
+    top:15%;
+    position: relative;
+  }
+
+  .ic3 {
+    top:25%;
+    position: relative;
+  }
+  
+  .ic4 {
+    top:35%;
+    position: relative;
+  }
+  
+  .ic5 {
+    top:45%;
+   position: relative;
+  }
+  .ic7{
+    top:50%;
+   position: relative;
+  }
+  
+  .ic6 {
+    top:55%;
+    position: relative;
+  }
+  
+  .input {
+    background-color: #303245;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+  }
+  
+  .cut {
+    background-color: #15172b;
+    border-radius: 10px;
+    height: 20px;
+    left: 20px;
+    position: absolute;
+    top: -20px;
+    transform: translateY(0);
+    transition: transform 200ms;
+    width: 76px;
+  }
+  
+  .cut-short {
+    width: 50px;
+  }
+  
+  .input:focus ~ .cut,
+  .input:not(:placeholder-shown) ~ .cut {
+    transform: translateY(8px);
+  }
+  
+  .placeholder {
+    color: #65657b;
+    font-family: sans-serif;
+    left: 20px;
+    line-height: 14px;
+    pointer-events: none;
+    position: absolute;
+    transform-origin: 0 50%;
+    transition: transform 200ms, color 200ms;
+    top: 20px;
+  }
+  
+  .input:focus ~ .placeholder,
+  .input:not(:placeholder-shown) ~ .placeholder {
+    transform: translateY(-30px) translateX(10px) scale(0.75);
+  }
+  
+  .input:not(:placeholder-shown) ~ .placeholder {
+    color: #808097;
+  }
+  
+  .input:focus ~ .placeholder {
+    color: #dc2f55;
+    length:70px;
+  }
+  
+  .submit {
+    background-color: #08d;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 30px;
+    margin-top: 38px;
+    outline: 0;
+    text-align: center;
+    width: 50%;
+    top:82%;
+    left: 27%;
+    position: absolute;
+
+  }
+  
+  .submit:active {
+    background-color: #06b;
+  }
+  
